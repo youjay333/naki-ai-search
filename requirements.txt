@@ -1,0 +1,10 @@
+fastapi==0.115.13
+uvicorn[standard]==0.34.3
+pydantic-settings==2.10.1
+langchain==0.3.26
+langchain-core==0.3.66
+langchain-openai==0.3.25
+langchain-tavily==0.2.4
+pytest==8.4.1
+pytest-asyncio==1.0.0
+httpx==0.28.1

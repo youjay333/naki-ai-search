@@ -1,5 +1,5 @@
 export async function streamSearch({ query, maxResults = 8, onEvent, signal }) {
-  const apiBase = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'
+  const apiBase = import.meta.env.VITE_API_BASE_URL || ''
   const response = await fetch(`${apiBase}/api/search/stream`, {
     method: 'POST',
     headers: {
